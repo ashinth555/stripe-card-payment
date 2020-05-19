@@ -13,7 +13,7 @@ Install Node on your machine from https://nodejs.org/en/download/
 	
 5. Open Terminal and navigate to the directory  stripe-card-payment	
             
-	       Build the server: Npm install	
+6. Build the server: `Npm install`	
            Run the server: npm start	
            Test the integration:Go to http://localhost:4242/	
 	
