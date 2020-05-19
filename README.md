@@ -31,13 +31,13 @@ Instructions to setup and test the implementation:
 	
 12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case	
 
-	TEST SCENARIO                              TEST CARD NUMBER
+	    TEST SCENARIO                              TEST CARD NUMBER
 	
-        Payment succeeds                           4242 4242 4242 4242
+            Payment succeeds                           4242 4242 4242 4242
 	
-        Payment requires authentication            4000 0025 0000 3155	
+            Payment requires authentication            4000 0025 0000 3155	
 	
-        Payment is declined                        4000 0000 0000 9995	
+            Payment is declined                        4000 0000 0000 9995	
 	
 	
 13. Go to your Stripe Dashboard and click on Payments to verify 	
