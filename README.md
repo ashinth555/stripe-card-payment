@@ -29,7 +29,7 @@ Instructions to setup and test the implementation:
 
 11. Test the integration:Go to http://localhost:4242/	
 	
-12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case.	
+12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before every new test case.	
 
         TEST SCENARIO                              TEST CARD NUMBER
 	
