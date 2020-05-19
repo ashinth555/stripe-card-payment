@@ -10,14 +10,14 @@ Instructions to setup and test the implementation:
 3. Download the Zip folder stripe-card-payment from this repo to your machine.	
 	
 4. Go to Downloads on your machine and Unzip the folder.	
-	
-5. Open Terminal and navigate to the directory  stripe-card-payment.
 
-6. Go to your stripe account and navigate to the Dashboard -> Developer -> API Keys
+5. Go to your stripe account and navigate to the Dashboard -> Developer -> API Keys
 
-7. Copy the publishable key under Standard keys, and paste it in line #2 of the file client.js in the unzipped folder stripe-card-payment. Save the file.
+6. Copy the publishable key under Standard keys, and paste it in line #2 of the file client.js in the unzipped folder stripe-card-payment. Save the file.
 
-8. Copy the secret key under Standard keys, and paste it in line # 19 of the file server.js in the unzipped folder stripe-card-payment. Save the file.
+7. Copy the secret key under Standard keys, and paste it in line # 19 of the file server.js in the unzipped folder stripe-card-payment. Save the file.
+
+8. Open Terminal and navigate to the directory  stripe-card-payment.
             
 9. Build the server.
 
