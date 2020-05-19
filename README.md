@@ -7,29 +7,29 @@ Instructions to setup and test the implementation:
 	
 2. Create an account at https://stripe.com & sign in	
 	
-3. Download the Zip folder stripe-card-payment from this repo to your machine	
+3. Download the Zip folder stripe-card-payment from this repo to your machine.	
 	
-4. Go to Downloads on your machine and Unzip the folder		
+4. Go to Downloads on your machine and Unzip the folder.	
 	
-5. Open Terminal and navigate to the directory  stripe-card-payment
+5. Open Terminal and navigate to the directory  stripe-card-payment.
 
 6. Go to your stripe account and navigate to the Dashboard -> Developer -> API Keys
 
-7. Copy the publishable key under Standard keys, and paste it in line #2 of the file client.js in the unzipped folder stripe-card-payment
+7. Copy the publishable key under Standard keys, and paste it in line #2 of the file client.js in the unzipped folder stripe-card-payment. Save the file.
 
-8. Copy the secret key under Standard keys, and paste it in line # 19 of the file server.js in the unzipped folder stripe-card-payment
+8. Copy the secret key under Standard keys, and paste it in line # 19 of the file server.js in the unzipped folder stripe-card-payment. Save the file.
             
-9. Build the server
+9. Build the server.
 
     `Npm install`	
 
-10. Run the server
+10. Run the server.
 
     `npm start`	
 
 11. Test the integration:Go to http://localhost:4242/	
 	
-12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case	
+12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case.	
 
         TEST SCENARIO                              TEST CARD NUMBER
 	
@@ -40,7 +40,7 @@ Instructions to setup and test the implementation:
         Payment is declined                        4000 0000 0000 9995	
 	
 	
-13. Go to your Stripe Dashboard and click on Payments to verify the test payments	
+13. Go to your Stripe Dashboard and click on Payments to verify the test payments.	
 	
 14. Use the Stripe CLI to test that the Webhooks for successful payments work.	
        Refer to Step#2 at https://stripe.com/docs/payments/handling-payment-events#use-cli	
