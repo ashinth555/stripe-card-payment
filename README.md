@@ -5,7 +5,7 @@ Instructions to setup and test the implementation:
 
 1. Install Node on your machine from https://nodejs.org/en/download/	
 	
-2. Create an account at stripe.com & sign in	
+2. Create an account at https://stripe.com & sign in	
 	
 3. Download the Zip file stripe-card-payment from this repo to your machine	
 	
