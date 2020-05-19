@@ -31,7 +31,7 @@ Instructions to setup and test the implementation:
 	
 12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case	
 
-	    TEST SCENARIO                              TEST CARD NUMBER
+	        TEST SCENARIO                              TEST CARD NUMBER
 	
             Payment succeeds                           4242 4242 4242 4242
 	
