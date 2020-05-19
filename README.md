@@ -3,13 +3,13 @@ PaymentInhtents Integration to support one-time payments
 	
 Instructions to setup and test the implementation:	
 
-Install Node on your machine from https://nodejs.org/en/download/	
+1.Install Node on your machine from https://nodejs.org/en/download/	
 	
-1. Create an account at stripe.com & sign in	
+2. Create an account at stripe.com & sign in	
 	
-2. Download the Zip file stripe-card-payment from this repo to your machine	
+3. Download the Zip file stripe-card-payment from this repo to your machine	
 	
-3. Go to Downloads on your machine and Unzip folder		
+4. Go to Downloads on your machine and Unzip folder		
 	
 5. Open Terminal and navigate to the directory  stripe-card-payment
 
@@ -20,18 +20,23 @@ Install Node on your machine from https://nodejs.org/en/download/
 8. Copy the secret key under Standard keys, and paste it in line # 19 of the file server.js in the unzipped folder stripe-card-payment
             
 9. Build the server
+
 `Npm install`	
 
 10. Run the server
+
 `npm start`	
 
 11. Test the integration:Go to http://localhost:4242/	
 	
 12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case	
 	
-          Payment succeeds                           4242 4242 4242 4242	
-          Payment requires authentication            4000 0025 0000 3155	
-          Payment is declined                        4000 0000 0000 9995	
+       Payment succeeds                           4242 4242 4242 4242
+	  
+       Payment requires authentication            4000 0025 0000 3155	
+	  
+       Payment is declined                        4000 0000 0000 9995	
+	  
 	
 13. Go to your Stripe Dashboard and click on Payments to verify 	
 	
