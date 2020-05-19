@@ -3,7 +3,7 @@ PaymentInhtents Integration to support one-time payments
 	
 Instructions to setup and test the implementation:	
 
-1.Install Node on your machine from https://nodejs.org/en/download/	
+1. Install Node on your machine from https://nodejs.org/en/download/	
 	
 2. Create an account at stripe.com & sign in	
 	
@@ -21,21 +21,21 @@ Instructions to setup and test the implementation:
             
 9. Build the server
 
-`Npm install`	
+    `Npm install`	
 
 10. Run the server
 
-`npm start`	
+    `npm start`	
 
 11. Test the integration:Go to http://localhost:4242/	
 	
 12. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case	
 	
-       Payment succeeds                           4242 4242 4242 4242
+        Payment succeeds                           4242 4242 4242 4242
 	  
-       Payment requires authentication            4000 0025 0000 3155	
+        Payment requires authentication            4000 0025 0000 3155	
 	  
-       Payment is declined                        4000 0000 0000 9995	
+        Payment is declined                        4000 0000 0000 9995	
 	  
 	
 13. Go to your Stripe Dashboard and click on Payments to verify 	
