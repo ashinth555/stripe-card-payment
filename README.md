@@ -17,7 +17,7 @@ Instructions to setup and test the implementation:
            Run the server: npm start	
            Test the integration:Go to http://localhost:4242/	
 	
-6. Run the following test cases with any CVC, postal code, and future expiry date.	
+6. Run the following test cases with any CVC, postal code, and future expiration date. Refresh the browser before a new test case	
 	
           Payment succeeds                           4242 4242 4242 4242	
           Payment requires authentication            4000 0025 0000 3155	
