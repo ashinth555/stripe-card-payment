@@ -46,3 +46,5 @@ Instructions to setup and test the implementation:
        Refer to Step#2 at https://stripe.com/docs/payments/handling-payment-events#use-cli	
 	
 15. Go to the file stripe-card-payment on your machine. There should be a file created called OrdersToFulfill. This is a log file containing a line for every successful payment.	
+
+Link to Friction Log
